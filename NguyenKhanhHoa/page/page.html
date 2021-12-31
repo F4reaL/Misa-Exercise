@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--CSS phần Page-->
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/logo-page.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/combobox.css">
+    <link rel="stylesheet" href="/css/menu.css">
+    <link rel="stylesheet" href="/css/button.css">
+    <link rel="stylesheet" href="/css/dropdown-list.css">
+    <link rel="stylesheet" href="/css/content.css">
+    <link rel="stylesheet" href="/css/table.css">
+
+    <!--CSS phần form-popup-->
+    <link rel="stylesheet" href="/css/form-popup/form-popup.css">
+    <link rel="stylesheet" href="/css/form-popup/form-header.css">
+
+    <link rel="stylesheet" href="/css/form-popup/form-content.css">
+    <link rel="stylesheet" href="/css/form-popup/form-input.css">
+
+    <link rel="stylesheet" href="/css/form-popup/form-footer.css">
+    <link rel="stylesheet" href="/css/dropdown.css">
+</head>
+
+<body>
+    <!--Page chính-->
+    <div class="page" id="page-opa">
+        <div class="top-area">
+            <div class="logo-page">
+                <div class="logo-page-icon" id="close-open-menu"></div>
+                <div class="logo-page-img"></div>
+            </div>
+            <div class="header">
+                <div class="header-title">
+                    <div class="dropdown-list">
+                        <div class="custom-select">
+                            <select>
+                                <option value="0">Nhà Hàng Biển Đông</option>
+                                <option value="1">Đảo Ngọc Xanh</option>
+                                <option value="2">Nhà Hàng SanJi</option>
+                                <option value="3">Nhà Trọ Phương Đông</option>
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="user">
+                    <div class="user-avt"></div>
+                    <div class="user-name">Nguyễn Khánh Hòa</div>
+                    <div class="user-option"></div>
+                </div>
+            </div>
+        </div>
+        <div class="bot-area">
+            <div class="menu" id="menu">
+                <div class="item">
+                    <div class="item-icon" id="icon1"></div>
+                    <div class="item-text">Hồ sơ điện tử</div>
+                </div>
+                <div class="item">
+                    <div class="item-icon" id="icon2"></div>
+                    <div class="item-text">Theo dõi chi tiết</div>
+                </div>
+                <div class="item">
+                    <div class="item-icon" id="icon3"></div>
+                    <div class="item-text">Theo dõi dòng</div>
+                </div>
+                <div class="item">
+                    <div class="item-icon" id="icon4"></div>
+                    <div class="item-text">Quản lý lao động</div>
+                </div>
+                <div class="item">
+                    <div class="item-icon" id="icon5"></div>
+                    <div class="item-text">Thiết lập</div>
+                </div>
+            </div>
+            <div class="content" id="content">
+                <div class="content-title">
+                    <div class="content-title-text">Danh sách nhân viên</div>
+                    <div class="button-btn" id="add-btn">
+                        <button id="nutthem">
+                            <div class="btn-icon" id="add-btn-icon"></div>
+                            <div class="btn-text">Thêm Nhân Viên</div>
+                        </button>
+                    </div>
+                </div>
+                <div class="search-bar">
+                    <div class="search-box">
+                        <input placeholder="Tìm theo Mã, Tên hoặc SĐT ...">
+                    </div>
+                    <div class="refresh-btn">
+                        <button></button>
+                    </div>
+                </div>
+                <div class="data-list scroller">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th fieldname="STT">STT</th>
+                                <th class="employeecode" fieldname="CustomerCode">Mã nhân viên</th>
+                                <th class="fullname" fieldname="FullName">Họ và tên</th>
+                                <th class="gendername" fieldName="Gender">Giới tính</th>
+                                <th class="dateofbirth" fieldname="DateOfBirth">Ngày sinh</th>
+                                <th fieldname="DebitAmount">Số tiền còn nợ</th>
+
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+                <div class="change-list">
+                    <div class="list-button">
+                        <div class="change-btn">
+                            <button id="oldest-btn"></button>
+                        </div>
+                        <div class="change-btn">
+                            <button id="pre-btn"></button>
+                        </div>
+                        <div class="number-btn">
+                            <button>1</button>
+                            <button>2</button>
+                            <button>3</button>
+                            <button>4</button>
+                            <button>5</button>
+                        </div>
+                        <div class="change-btn">
+                            <button id="next-btn"></button>
+                        </div>
+                        <div class="change-btn">
+                            <button id="lastest-btn"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Form thông tin -->
+    <div class="form-popup" id="myForm">
+        <div class="form-container">
+            <!--Tiêu đề form-->
+            <div class="form-header">
+                <div class="form-header-text">THÔNG TIN NHÂN VIÊN</div>
+                <div class="form-header-icon">
+                    <button class="cancel-btn"></button>
+                </div>
+
+            </div>
+            <!--Khung hiển thị thông tin-->
+            <div class="form-content">
+                <!--Khu hình ảnh user-->
+                <div class="form-user">
+
+                    <div class="form-user-avt"></div>
+                    <div class="form-user-text">
+                        <p>(Vui lòng chọn thẻ có <br>định dạng <br>.jpg .jpeg .png .gif)</p>
+                    </div>
+                </div>
+                <!--Thông tin cần điền-->
+                <div class="form-info">
+                    <!--Thông tin chung-->
+                    <div class="A-area">
+                        <div class="area-title">
+                            <div class="area-title-text">A.THÔNG TIN CHUNG:</div>
+                            <div class="green-line"></div>
+                        </div>
+
+                        <div class="area-info">
+                            <div class="info-left">
+                                <p>Mã nhân viên(<span class="spe-icon">*</span>)</p>
+                                <input type="text" tabindex="2" fieldname="EmployeeCode" id="txtEmployeeCode" pattern="NV-[0-9]{4,}$" oninvalid="setCustomValidity('Mời nhập đúng định dạng Mã NV ')" onchange="setCustomValidity('')" required="required" />
+                                <p>Ngày sinh</p>
+                                <input type="date" tabindex="4" id="txtDateOfBirth" fieldname="DateOfBirth">
+                                <p>Số CMTND/Căn cước</p>
+                                <input type="text" tabindex="6">
+                                <p>Nơi cấp</p>
+                                <input type="text" tabindex="8" id="txtAddress" fieldname="Address">
+                                <p>Email(<span class="spe-icon">*</span>)</p>
+                                <input type="email" tabindex="9" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" oninvalid="setCustomValidity('Mời nhập đúng định dạng email ')" onchange="setCustomValidity('')" required="required" id="txtEmail" fieldname="Email">
+
+                            </div>
+                            <div class="info-right">
+                                <p>Họ và tên(<span class="spe-icon">*</span>)</p>
+                                <input type="text" tabindex="3" id="txtFullName" required="required" fieldname="FullName">
+                                <p>Giới tính</p>
+                                <div class="auto-dropdown">
+                                    <input type="text" tabindex="5" class="input-text" id="txtGenderName" fieldname="Gender">
+                                    <div class="icon-drop-down"></div>
+                                    <div class="auto-combobox"></div>
+                                </div>
+                                <p>Ngày cấp</p>
+                                <input type="date" tabindex="7">
+                                <p style="visibility: hidden;">hiden</p>
+                                <input style="visibility: hidden;" type="text">
+                                <p>Số ĐT(<span class="spe-icon">*</span>)</p>
+                                <input type="text" tabindex="10" id="txtPhoneNumber" fieldname="PhoneNumber">
+                            </div>
+                        </div>
+                    </div>
+                    <!--Thông tin công việc-->
+                    <div class="B-area">
+                        <div class="area-title">
+                            <div class="area-title-text">B. THÔNG TIN CÔNG VIỆC:</div>
+                            <div class="green-line"></div>
+                        </div>
+                        <div class="area-info">
+                            <div class="info-left">
+
+                                <p>Chức vụ</p>
+                                <input type="text" id="txtPositionName" tabindex="11" fieldname="PositionName" />
+                                <p>Mã số thuế cá nhân</p>
+                                <input type="text" tabindex="13">
+                                <p>Ngày gia nhập công ty</p>
+                                <input type="date" tabindex="15">
+
+                            </div>
+                            <div class="info-right">
+                                <p>Phòng ban</p>
+                                <input type="text" tabindex="12" id="txtDepartmentName" fieldname="DepartmentName">
+                                <p>Mức lương cơ bản</p>
+                                <input type="number" min="1" step="any" tabindex="14" id="txtSalary" fieldname="Salary" />
+                                <p>Tình trạng công việc</p>
+                                <input type="number" id="txtWorkStatus" tabindex="16" fieldname="WorkStatus" />
+
+
+
+
+                                <div id="repeat" tabindex="17"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Lưu-->
+            <div class="form-footer">
+                <div class="footer-btn">
+                    <div class="cancel-btn">
+                        <button>Hủy</button>
+                    </div>
+                    <div class="button-btn">
+                        <button type="submit" id="nutluu">
+                            <div class="btn-icon" id="save-btn-icon"></div>
+                            <div class="btn-text">Lưu</div>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--JavaScript-->
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/open-info-form.js"></script>
+    <script src="/js/combobox.js"></script>
+    <script src="/js/dropdown.js"></script>
+    <!-- <script>
+        function closeMenu(){
+            document.getElementById("menu").style.width="0";
+            document.getElementById("content").style.width="100%";
+        }
+    </script> -->
+
+
+</body>
+
+</html>

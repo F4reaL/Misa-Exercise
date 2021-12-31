@@ -1,0 +1,26 @@
+/*Đổ màu xanh cho thẻ input khi focus*/
+
+.area-info input:focus {
+    outline: none !important;
+    border: 1px solid #01b075;
+}
+
+.area-info input {
+    width: 230px;
+    height: 32px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+
+
+/*Khi nhập sai định dạng cho input sẽ chuyển màu đỏ*/
+
+.area-info input.erro-inp {
+    border: 1px solid red;
+    border-radius: 5px;
+    margin: 0;
+    padding-left: 10px;
+}

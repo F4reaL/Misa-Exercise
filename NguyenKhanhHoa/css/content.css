@@ -1,0 +1,123 @@
+.content .content-title {
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.content .content-title .content-title-text {
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 16px;
+}
+
+.content .content-title #add-btn {
+    position: absolute;
+    float: right;
+    right: 16px;
+}
+
+
+/*Search Bar*/
+
+.content .search-bar {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+
+/*Search-box*/
+
+.content .search-bar .search-box input {
+    padding: 10px 10px 10px 40px;
+    border-radius: 4px;
+    border: 1px solid #DBDEFF;
+    width: 300px;
+    background-image: url('/icon/search.png');
+    background-repeat: no-repeat;
+    background-position: 16px;
+}
+
+.content .search-bar .search-box input:focus {
+    /*Đổi màu viền search box*/
+    outline: none !important;
+    border: 1px solid #01b075;
+}
+
+
+/*Refresh Button*/
+
+.content .search-bar .refresh-btn {
+    position: absolute;
+    float: right;
+    right: 16px;
+}
+
+.content .search-bar .refresh-btn button {
+    background-image: url("/icon/refresh.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 24px;
+    width: 24px;
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    outline: none;
+}
+
+.content .search-bar .refresh-btn button:hover {
+    background-color: #ffffff;
+}
+
+
+/*Các button chuyển trang*/
+
+.change-list {
+    height: 41px;
+}
+
+.change-list .list-button {
+    height: 36px;
+    margin-left: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.change-list .list-button button {
+    border-radius: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 36px;
+    height: 36px;
+    outline: none;
+    border: none;
+    margin-right: 5px;
+}
+
+.change-list .list-button button:hover {
+    background-color: #019160;
+    cursor: pointer;
+}
+
+.list-button #oldest-btn {
+    background-image: url("/icon/btn-firstpage.svg");
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.list-button #pre-btn {
+    background-image: url("/icon/btn-prev-page.svg");
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.list-button #next-btn {
+    background-image: url("/icon/btn-next-page.svg");
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.list-button #lastest-btn {
+    background-image: url("/icon/btn-lastpage.svg");
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}

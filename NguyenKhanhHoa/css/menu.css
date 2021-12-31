@@ -1,0 +1,49 @@
+/* Định dạng menu item và những thay đổi khi hover */
+
+.menu .item {
+    background-color: #ffffff;
+    display: flex;
+    line-height: 44px;
+    padding-left: 24px;
+    font-size: 13px;
+    color: #000000;
+    height: 44px;
+}
+
+.menu .item:hover {
+    background-color: #019160;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+/* set menu item-icon */
+
+.menu .item .item-icon {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    padding-right: 10px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#icon1 {
+    background-image: url("/icon/document-online.png");
+}
+
+#icon2 {
+    background-image: url("/icon/report.png");
+}
+
+#icon3 {
+    background-image: url("/icon/dashboard.png");
+}
+
+#icon4 {
+    background-image: url("/icon/dic-employee.png");
+}
+
+#icon5 {
+    background-image: url("/icon/setting.png");
+}

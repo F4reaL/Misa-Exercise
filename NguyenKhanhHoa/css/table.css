@@ -1,0 +1,98 @@
+/*Danh sách nhân viên*/
+
+.data-list {
+    height: 450px;
+    width: 100%;
+    overflow: scroll;
+}
+
+
+/**
+    Custom Scrollbar -------------------------
+*/
+
+::-webkit-scrollbar-track {
+    margin-top: 48px;
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgb(41, 38, 38);
+}
+
+
+/*Thiết kế table*/
+
+table {
+    width: 100%;
+}
+
+table th {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: #019160;
+    text-align: center;
+}
+
+.data-list table th,
+td {
+    border-bottom: 1px solid #bbbbbb;
+    height: 40px;
+    width: 100px;
+    white-space: nowrap;
+}
+
+
+/*Đổ màu xen kẽ cho table*/
+
+.data-list table tr:nth-child(even) {
+    background-color: #bbbbbb;
+}
+
+
+/*Đổ màu khi hover*/
+
+.data-list table tr:hover {
+    background-color: #01b075;
+    transition-duration: 0.3s;
+}
+
+
+/* Set giá trị từng cột trong bảng dữ liệu*/
+
+.employeecode {
+    width: 200px;
+}
+
+.fullname {
+    width: 300px;
+}
+
+.gendername {
+    width: 100px;
+}
+
+.salary {
+    width: 200px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+.dateofbirth {
+    width: 150px;
+    text-align: center;
+}
+
+.checkbox {
+    color: #019160;
+}

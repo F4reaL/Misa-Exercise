@@ -1,0 +1,38 @@
+.auto-dropdown .auto-combobox {
+    position: relative;
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+.auto-dropdown.active .auto-combobox {
+    position: absolute;
+    padding: 0px 0px;
+    opacity: 1;
+    pointer-events: auto;
+    z-index: 9;
+    background-color: #fff;
+    box-shadow: 0 1px 3px #bbb;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.auto-combobox li {
+    padding-top: 5px;
+    padding-left: 10px;
+    list-style: none;
+    display: none;
+    width: 183px;
+    height: 26px;
+    cursor: default;
+}
+
+.auto-dropdown.active .auto-combobox li {
+    display: block;
+}
+
+.auto-combobox li:hover {
+    background: #019160;
+}

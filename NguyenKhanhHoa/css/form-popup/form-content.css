@@ -1,0 +1,98 @@
+.form-content {
+    width: 100%;
+    height: calc(100% - 100px);
+    background-color: #ffffff;
+    display: flex;
+}
+
+.form-content .form-user {
+    width: 200px;
+}
+
+.form-content .form-user .form-user-avt {
+    background-image: url("/img/default-avatar.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 160px;
+    border: 1px solid #bbbbbb;
+    border-radius: 50%;
+    margin: 20px 15px 10px 15px;
+}
+
+.form-content .form-user .form-user-text {
+    text-align: center;
+    height: 60px;
+    width: 100%;
+}
+
+.form-info {
+    width: calc(100% - 200px);
+}
+
+
+/*Tiêu đề A và B*/
+
+.area-title-text {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/*Các thẻ điền infor*/
+
+.area-info p {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.area-info select {
+    width: 180px;
+    height: 24px;
+    border: 1px solid #bbbbbb;
+    border-radius: 5px;
+    margin: 0;
+    padding-left: 10px;
+}
+
+
+/*Tạm thời chưa biết fix chiều cao thẻ select cùng thẻ input @.@*/
+
+.area-info select {
+    height: 26px;
+}
+
+
+/*Tô màu đỏ cho dấu sao*/
+
+.spe-icon {
+    color: red;
+}
+
+
+/*Các khu vực -area*/
+
+.A-area,
+.B-area {
+    padding-top: 10px;
+}
+
+.area-info {
+    display: flex;
+}
+
+.area-info .info-left {
+    width: 50%;
+    height: 100%;
+}
+
+.area-info .info-right {
+    padding-left: 18px;
+    width: 50%;
+    height: 100%;
+}
+
+.green-line {
+    border-bottom: 2px solid #019160;
+    width: 150px;
+}

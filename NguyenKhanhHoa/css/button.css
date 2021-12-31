@@ -1,0 +1,63 @@
+/*Default Button*/
+
+.button-btn button {
+    background-color: #019160;
+    outline: none;
+    border: none;
+    height: 36px;
+    font-size: 13px;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.button-btn button .btn-icon {
+    height: 16px;
+    width: 16px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.button-btn button .btn-text {
+    padding: 0 10px 0 10px;
+}
+
+
+/*Khi hover*/
+
+.button-btn button:hover {
+    background-color: #01B075;
+    cursor: pointer;
+}
+
+
+/*Button thêm nhân viên*/
+
+#add-btn-icon {
+    background-image: url("/icon/add.png");
+}
+
+
+/*Button Lưu*/
+
+#save-btn-icon {
+    background-image: url("/icon/add.png");
+}
+
+
+/*Button Hủy cancel*/
+
+.cancel-btn button {
+    height: 36px;
+    font-size: 13px;
+    text-align: center;
+    background-color: rebeccapurple;
+    border: none;
+    margin-right: 10px;
+}
+
+.cancel-btn button:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+}

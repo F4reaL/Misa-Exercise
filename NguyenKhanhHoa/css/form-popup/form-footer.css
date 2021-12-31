@@ -1,0 +1,13 @@
+.form-footer {
+    height: 40px;
+    width: 100%;
+    background-color: rebeccapurple;
+    align-items: center;
+}
+
+.form-footer .footer-btn {
+    display: flex;
+    float: right;
+    margin-right: 16px;
+    margin-top: 2px;
+}
