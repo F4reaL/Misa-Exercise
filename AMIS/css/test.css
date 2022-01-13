@@ -1,0 +1,125 @@
+.container {
+    display: flex;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+    height: 300px;
+    width: 900px;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.red {
+    height: 50%;
+    width: 12.5%;
+    background-color: rgb(131, 38, 38);
+    border-radius: 10px;
+}
+
+.purple {
+    height: 50%;
+    width: 12.5%;
+    background-color: rgb(145, 42, 177);
+    border-radius: 10px;
+}
+
+.green {
+    height: 50%;
+    width: 12.5%;
+    background-color: rgb(23, 184, 71);
+    border-radius: 10px;
+}
+
+.yellow {
+    height: 50%;
+    width: 12.5%;
+    background-color: rgb(169, 226, 62);
+    border-radius: 10px;
+}
+
+:root {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: purple;
+}
+
+main {
+    margin-left: 5rem;
+    padding: 1rem;
+}
+
+.navbar {
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(23, 184, 71);
+    transition: width 200ms ease;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav-item {
+    width: 100%;
+}
+
+.nav-item:last-child {
+    margin-top: auto;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    text-decoration: none;
+}
+
+.link-text {
+    display: none;
+    margin-left: 1rem;
+}
+
+.navbar:hover {
+    width: 16rem;
+}
+
+.navbar:hover .link-text {
+    display: block;
+}
+
+.img-svg {
+    height: 300px;
+    width: 200px;
+    display: fixed;
+    top: auto;
+    margin-left: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img-svg path {
+    fill: aqua;
+}

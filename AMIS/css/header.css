@@ -1,0 +1,74 @@
+/* Title company */
+
+.title-company {
+    display: flex;
+    height: 60px;
+    /* width: 45%; */
+    font-size: 14px;
+    align-items: center;
+}
+
+.title-company .sidebar-menu {
+    background-image: url('../asset/img/bars-solid.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.title-company .title-down {
+    background-image: url('../asset/img/chevron-down-solid.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 20px;
+    width: 20px;
+    margin-left: 15px;
+    opacity: 0.75;
+}
+
+
+/* User-account */
+
+.user-account {
+    position: absolute;
+    display: flex;
+    right: 10px;
+    align-items: center;
+    height: 60px;
+}
+
+.user-account .user-notices {
+    background-image: url('../asset/img/bell-regular.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.user-account .user-avatar {
+    background-image: url('../asset/img/user-avatar.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25px;
+    width: 25px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.user-account .user-name {
+    font-family: Notosans-Bold;
+}
+
+.user-account .user-option {
+    background-image: url('../asset/img/chevron-down-solid.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 14px;
+    width: 14px;
+    margin-left: 10px;
+    opacity: 0.5;
+}

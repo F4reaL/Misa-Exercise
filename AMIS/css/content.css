@@ -1,0 +1,59 @@
+.top-content {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 48px;
+    width: 100%;
+}
+
+.top-content .content-title {
+    padding-left: 15px;
+    font-family: Notosans-Bold;
+    font-size: 20px;
+}
+
+.top-content .add-new-employee {
+    right: 10px;
+    position: absolute;
+}
+
+
+/* Container */
+
+.container {
+    width: calc(100% - 15px);
+    height: calc(100% - 88px);
+    margin-left: 15px;
+    background-color: white;
+}
+
+.toolbar {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.toolbar .reload-btn {
+    margin-right: 10px;
+}
+
+.toolbar input {
+    margin-right: 10px;
+}
+
+
+/* Paging bar */
+
+.paging-bar {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 5px;
+}
+
+.paging-bar .number-of-records {
+    position: fixed;
+    left: 20vw;
+}

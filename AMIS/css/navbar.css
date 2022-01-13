@@ -1,0 +1,51 @@
+.nav-logo {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo .nav-toggle {
+    background-image: url('../asset/img/toggle.png');
+    fill: white;
+    width: 36px;
+    height: 36px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.nav-logo .nav-icon {
+    background-image: url('../asset/img/Logo_Module_TiengViet_White.66947422.svg');
+    height: 36px;
+    width: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+}
+
+.nav-list {}
+
+.nav-list .nav-item {
+    height: 32px;
+    line-height: 32px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+
+.nav-list .nav-item:hover {
+    background-color: #E2E4E9;
+    color: black;
+    cursor: pointer;
+}
+
+.nav-list .nav-item:active {
+    background-color: #99A1B2;
+}
+
+.nav-item .nav-item-icon {
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+}

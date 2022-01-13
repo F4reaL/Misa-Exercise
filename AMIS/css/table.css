@@ -1,0 +1,59 @@
+/* Data Table */
+
+.data-table {
+    width: 100%;
+    height: calc(100% - 40px);
+    overflow: scroll;
+}
+
+
+/* Custom scrollbar for table */
+
+::-webkit-scrollbar-track {
+    margin-top: 40px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgb(41, 38, 38);
+}
+
+
+/* Custom table */
+
+table {
+    width: 100%;
+    border-spacing: 0px;
+}
+
+table th {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: #E7EBFD;
+    text-align: center;
+}
+
+.data-table table th,
+td {
+    border-bottom: 1px solid #e9e7e7;
+    height: 40px;
+    min-width: 150px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+
+/*Đổ màu khi hover*/
+
+.data-table table tr:hover {
+    background-color: #e5e2e2;
+    transition: 200ms ease;
+    cursor: pointer;
+}

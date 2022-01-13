@@ -1,0 +1,54 @@
+@import url('./popup.css');
+@import url('./navbar.css');
+@import url('./header.css');
+@import url('./content.css');
+@import url('./button.css');
+@import url('./input.css');
+@import url('./table.css');
+@import url('./radio.css');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Notosans-Bold;
+    src: url('../asset/fonts/notosans-bold.3ede5aff.woff2');
+}
+
+@font-face {
+    font-family: Notosans-Regular;
+    src: url('../asset/fonts/notosans-regular.2cb88a13.woff2');
+}
+
+body {
+    font-family: Notosans-Regular;
+    font-size: 13px;
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+
+.navbar {
+    float: left;
+    height: 100vh;
+    width: 200px;
+    background-color: #1F2229;
+    color: white;
+}
+
+.header {
+    float: left;
+    height: 60px;
+    width: calc(100vw - 200px);
+    background-color: white;
+    display: flex;
+    position: relative;
+}
+
+.content {
+    float: left;
+    height: calc(100vh - 60px);
+    width: calc(100vw - 200px);
+    background-color: #E7EBFD;
+}

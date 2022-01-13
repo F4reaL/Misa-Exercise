@@ -1,0 +1,159 @@
+.popup {
+    height: 600px;
+    width: 1000px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border: 2px solid black;
+    border-radius: 5px;
+    z-index: 1000;
+    background-color: #f5f8fa;
+    display: none;
+}
+
+
+/* PopUp Header */
+
+.popup .pop-header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+}
+
+.pop-header .pop-title {
+    font-size: 30px;
+    font-family: Notosans-Bold;
+    margin-left: 15px;
+}
+
+
+/*Checkbox to Select Customer or Supplier */
+
+.pop-checkbox {
+    display: flex;
+}
+
+.pop-checkbox input {
+    height: 16px;
+    width: 16px;
+    margin-left: 30px;
+}
+
+.pop-checkbox p {
+    line-height: 16px;
+    margin-left: 5px;
+}
+
+
+/* Help Answer question from user and close popup */
+
+.pop-sup-btn {
+    height: 24px;
+    width: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+
+.pop-sup-btn.pop-help {
+    background-image: url('../asset/img/question-circle-regular.svg');
+    position: fixed;
+    top: 5px;
+    right: 35px;
+}
+
+.pop-sup-btn.pop-close {
+    background-image: url('../asset/img/X-solid.svg');
+    position: fixed;
+    top: 5px;
+    right: 5px;
+}
+
+
+/* PopUp Content */
+
+.popup .pop-content {
+    width: 100%;
+    height: calc(100% - 140px);
+}
+
+.pop-content .infor-row {
+    width: 100%;
+    height: 15%;
+    padding-left: 45px;
+    display: flex;
+}
+
+.infor-row .employee-infor.area2 {
+    margin-right: 15px;
+}
+
+.infor-row .infor-label {
+    font-family: Notosans-Bold;
+}
+
+
+/* Set position for Input field in Popup */
+
+
+/* Row 1 */
+
+.pop-content .infor-row:nth-child(1) .employee-infor:nth-child(odd) input {
+    margin-right: 15px;
+}
+
+.pop-content .infor-row:nth-child(1) .employee-infor:nth-child(2) input {
+    margin-right: 50px;
+}
+
+
+/* Row 2 */
+
+.pop-content .infor-row:nth-child(2) .employee-infor:nth-child(1) input {
+    margin-right: 50px;
+}
+
+.pop-content .infor-row:nth-child(2) .employee-infor:nth-child(2) input {
+    margin-right: 15px;
+}
+
+
+/* Row 3 */
+
+.pop-content .infor-row:nth-child(3) .employee-infor:nth-child(1) input {
+    margin-right: 50px;
+}
+
+
+/* A line bottom content */
+
+.pop-content .hr-line {
+    width: 880px;
+    margin-left: 45px;
+    margin-top: 40px;
+}
+
+
+/* PopUp Footer */
+
+.popup .pop-footer {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.save-and-add-btn {
+    margin-right: 75px;
+}
+
+.save-btn {
+    margin-right: 15px;
+}
+
+.cancel-btn {
+    position: fixed;
+    left: 45px;
+}

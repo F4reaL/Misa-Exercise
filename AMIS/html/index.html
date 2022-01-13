@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+    <div class="page">
+        <div class="navbar">
+            <div class="nav-logo">
+                <div class="nav-toggle"></div>
+                <div class="nav-icon"></div>
+            </div>
+            <div class="nav-list">
+                <div class="nav-item">
+                    <div class="nav-item-icon icon-report">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" focusable="false">
+                        <path d="M0 0h24v24H0z" stroke="none"/>
+                        <path d="M8 5H6a2 2 0 00-2 2v12a2 2 0 002 2h5.697M18 14v4h4m-4-7V7a2 2 0 00-2-2h-2"/>
+                        <rect x="8" y="3" width="6" height="4" rx="2"/>
+                        <circle cx="18" cy="18" r="4"/>
+                        <path d="M8 11h4m-4 4h3"/>
+                      </svg>
+                    </div>
+                    <!-- <img src="../asset/img/report-icon.svg" alt="Logo" class="nav-item-icon"> -->
+
+
+                    <div class="nav-item-text">Tổng quan</div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" focusable="false">
+                        <path d="M19 5H5a3 3 0 00-3 3v8a3 3 0 003 3h14a3 3 0 003-3V8a3 3 0 00-3-3zm-8 10H7a1 1 0 010-2h4a1 1 0 010 2zm6 0h-2a1 1 0 010-2h2a1 1 0 010 2zm3-6H4V8a1 1 0 011-1h14a1 1 0 011 1z"/>
+                      </svg>
+                    </div>
+
+                    <div class="nav-item-text">Tiền mặt</div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-item-icon">
+                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" focusable="false">
+                        <path d="M560 224h-29.5c-8.8-20-21.6-37.7-37.4-52.5L512 96h-32c-29.4 0-55.4 13.5-73 34.3-7.6-1.1-15.1-2.3-23-2.3H256c-77.4 0-141.9 55-156.8 128H56c-14.8 0-26.5-13.5-23.5-28.8C34.7 215.8 45.4 208 57 208h1c3.3 0 6-2.7 6-6v-20c0-3.3-2.7-6-6-6-28.5 0-53.9 20.4-57.5 48.6C-3.9 258.8 22.7 288 56 288h40c0 52.2 25.4 98.1 64 127.3V496c0 8.8 7.2 16 16 16h64c8.8 0 16-7.2 16-16v-48h128v48c0 8.8 7.2 16 16 16h64c8.8 0 16-7.2 16-16v-80.7c11.8-8.9 22.3-19.4 31.3-31.3H560c8.8 0 16-7.2 16-16V240c0-8.8-7.2-16-16-16zm-128 64c-8.8 0-16-7.2-16-16s7.2-16 16-16 16 7.2 16 16-7.2 16-16 16zM256 96h128c5.4 0 10.7.4 15.9.8 0-.3.1-.5.1-.8 0-53-43-96-96-96s-96 43-96 96c0 2.1.5 4.1.6 6.2 15.2-3.9 31-6.2 47.4-6.2z"/>
+                      </svg>
+                    </div>
+                    <div class="nav-item-text">Tiền gửi</div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-item-icon">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="shopping-basket" class="svg-inline--fa fa-shopping-basket fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M576 216v16c0 13.255-10.745 24-24 24h-8l-26.113 182.788C514.509 462.435 494.257 480 470.37 480H105.63c-23.887 0-44.139-17.565-47.518-41.212L32 256h-8c-13.255 0-24-10.745-24-24v-16c0-13.255 10.745-24 24-24h67.341l106.78-146.821c10.395-14.292 30.407-17.453 44.701-7.058 14.293 10.395 17.453 30.408 7.058 44.701L170.477 192h235.046L326.12 82.821c-10.395-14.292-7.234-34.306 7.059-44.701 14.291-10.395 34.306-7.235 44.701 7.058L484.659 192H552c13.255 0 24 10.745 24 24zM312 392V280c0-13.255-10.745-24-24-24s-24 10.745-24 24v112c0 13.255 10.745 24 24 24s24-10.745 24-24zm112 0V280c0-13.255-10.745-24-24-24s-24 10.745-24 24v112c0 13.255 10.745 24 24 24s24-10.745 24-24zm-224 0V280c0-13.255-10.745-24-24-24s-24 10.745-24 24v112c0 13.255 10.745 24 24 24s24-10.745 24-24z"></path></svg>
+                    </div>
+                    <div class="nav-item-text">Mua hàng</div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-item-icon">
+                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" focusable="false">
+                        <circle cx="32.961" cy="81.02" r="5.889"/>
+                        <circle cx="74.309" cy="81.02" r="5.889"/>
+                        <path d="M73.513 55.216a3.443 3.443 0 003.11-1.978l.003.002 14.589-25.27-.018-.01c.214-.449.344-.946.344-1.477a3.451 3.451 0 00-3.452-3.452h-53.59v-6.488a3.451 3.451 0 00-3.452-3.452H12.186v.028c-.092-.008-.181-.028-.275-.028a3.44 3.44 0 00-3.41 3.035h-.042v3.452a3.451 3.451 0 003.452 3.452c.094 0 .183-.021.275-.028v.028h12.373v43.733h.001a3.45 3.45 0 003.451 3.442h59.256v-.085a3.433 3.433 0 003.185-2.922h.049v-.49l.002-.018-.002-.018V63.67l.002-.018a3.44 3.44 0 00-3.236-3.429v-.022H34.498v-4.988h39.015z"/>
+                      </svg>
+                    </div>
+                    <div class="nav-item-text">Bán hàng</div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-item-icon">
+                        <svg height="20px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="file-invoice-dollar" class="svg-inline--fa fa-file-invoice-dollar fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M377 105L279.1 7c-4.5-4.5-10.6-7-17-7H256v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-153 31V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zM64 72c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16c0 4.42-3.58 8-8 8H72c-4.42 0-8-3.58-8-8V72zm0 80v-16c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16c0 4.42-3.58 8-8 8H72c-4.42 0-8-3.58-8-8zm144 263.88V440c0 4.42-3.58 8-8 8h-16c-4.42 0-8-3.58-8-8v-24.29c-11.29-.58-22.27-4.52-31.37-11.35-3.9-2.93-4.1-8.77-.57-12.14l11.75-11.21c2.77-2.64 6.89-2.76 10.13-.73 3.87 2.42 8.26 3.72 12.82 3.72h28.11c6.5 0 11.8-5.92 11.8-13.19 0-5.95-3.61-11.19-8.77-12.73l-45-13.5c-18.59-5.58-31.58-23.42-31.58-43.39 0-24.52 19.05-44.44 42.67-45.07V232c0-4.42 3.58-8 8-8h16c4.42 0 8 3.58 8 8v24.29c11.29.58 22.27 4.51 31.37 11.35 3.9 2.93 4.1 8.77.57 12.14l-11.75 11.21c-2.77 2.64-6.89 2.76-10.13.73-3.87-2.43-8.26-3.72-12.82-3.72h-28.11c-6.5 0-11.8 5.92-11.8 13.19 0 5.95 3.61 11.19 8.77 12.73l45 13.5c18.59 5.58 31.58 23.42 31.58 43.39 0 24.53-19.05 44.44-42.67 45.07z"></path></svg>
+                    </div>
+                    <div class="nav-item-text">Quản lý hóa đơn</div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-item-icon">
+                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 616 512" focusable="false">
+                        <path d="M602 118.6L537.1 15C531.3 5.7 521 0 510 0H106C95 0 84.7 5.7 78.9 15L14 118.6c-33.5 53.5-3.8 127.9 58.8 136.4 4.5.6 9.1.9 13.7.9 29.6 0 55.8-13 73.8-33.1 18 20.1 44.3 33.1 73.8 33.1 29.6 0 55.8-13 73.8-33.1 18 20.1 44.3 33.1 73.8 33.1 29.6 0 55.8-13 73.8-33.1 18.1 20.1 44.3 33.1 73.8 33.1 4.7 0 9.2-.3 13.7-.9 62.8-8.4 92.6-82.8 59-136.4zM529.5 288c-10 0-19.9-1.5-29.5-3.8V384H116v-99.8c-9.6 2.2-19.5 3.8-29.5 3.8-6 0-12.1-.4-18-1.2-5.6-.8-11.1-2.1-16.4-3.6V480c0 17.7 14.3 32 32 32h448c17.7 0 32-14.3 32-32V283.2c-5.4 1.6-10.8 2.9-16.4 3.6-6.1.8-12.1 1.2-18.2 1.2z"/>
+                      </svg>
+                    </div>
+                    <div class="nav-item-text">Kho</div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-item-icon">
+                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" focusable="false">
+                        <path d="M501.1 395.7L384 278.6c-23.1-23.1-57.6-27.6-85.4-13.9L192 158.1V96L64 0 0 64l96 128h62.1l106.6 106.6c-13.6 27.8-9.2 62.3 13.9 85.4l117.1 117.1c14.6 14.6 38.2 14.6 52.7 0l52.7-52.7c14.5-14.6 14.5-38.2 0-52.7zM331.7 225c28.3 0 54.9 11 74.9 31l19.4 19.4c15.8-6.9 30.8-16.5 43.8-29.5 37.1-37.1 49.7-89.3 37.9-136.7-2.2-9-13.5-12.1-20.1-5.5l-74.4 74.4-67.9-11.3L334 98.9l74.4-74.4c6.6-6.6 3.4-17.9-5.7-20.2-47.4-11.7-99.6.9-136.6 37.9-28.5 28.5-41.9 66.1-41.2 103.6l82.1 82.1c8.1-1.9 16.5-2.9 24.7-2.9zm-103.9 82l-56.7-56.7L18.7 402.8c-25 25-25 65.5 0 90.5s65.5 25 90.5 0l123.6-123.6c-7.6-19.9-9.9-41.6-5-62.7zM64 472c-13.2 0-24-10.8-24-24 0-13.3 10.7-24 24-24s24 10.7 24 24c0 13.2-10.7 24-24 24z"/>
+                      </svg>
+                    </div>
+                    <div class="nav-item-text">Công cụ dụng cụ</div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" fill="currentColor" focusable="false">
+                        <path d="M928 160H96c-17.7 0-32 14.3-32 32v160h896V192c0-17.7-14.3-32-32-32zM64 832c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V440H64v392zm579-184c0-4.4 3.6-8 8-8h165c4.4 0 8 3.6 8 8v72c0 4.4-3.6 8-8 8H651c-4.4 0-8-3.6-8-8v-72z"/>
+                      </svg>
+                    </div>
+                    <div class="nav-item-text">Tài sản cố định</div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-item-icon">
+                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 1792" focusable="false">
+                        <path d="M960 0l960 384v128h-128q0 26-20.5 45t-48.5 19H197q-28 0-48.5-19T128 512H0V384zM256 640h256v768h128V640h256v768h128V640h256v768h128V640h256v768h59q28 0 48.5 19t20.5 45v64H128v-64q0-26 20.5-45t48.5-19h59V640zm1595 960q28 0 48.5 19t20.5 45v128H0v-128q0-26 20.5-45t48.5-19h1782z"/>
+                    </svg>
+                    </div>
+                    <div class="nav-item-text">Thuế</div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" focusable="false">
+                        <path d="M21.47 11.58l-6.42-6.41a1 1 0 00-.61-.29L5.09 4a1 1 0 00-.8.29 1 1 0 00-.29.8l.88 9.35a1 1 0 00.29.61l6.41 6.42a1.84 1.84 0 001.29.53 1.82 1.82 0 001.28-.53l7.32-7.32a1.82 1.82 0 000-2.57zm-9.91 0a1.5 1.5 0 110-2.12 1.49 1.49 0 010 2.1z"/>
+                    </svg>
+                    </div>
+                    <div class="nav-item-text">Giá thành</div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-item-icon">
+                        <svg height="20px" aria-hidden="true" focusable="false" data-prefix="far" data-icon="clipboard" class="svg-inline--fa fa-clipboard fa-w-12" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M336 64h-80c0-35.3-28.7-64-64-64s-64 28.7-64 64H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM192 40c13.3 0 24 10.7 24 24s-10.7 24-24 24-24-10.7-24-24 10.7-24 24-24zm144 418c0 3.3-2.7 6-6 6H54c-3.3 0-6-2.7-6-6V118c0-3.3 2.7-6 6-6h42v36c0 6.6 5.4 12 12 12h168c6.6 0 12-5.4 12-12v-36h42c3.3 0 6 2.7 6 6z"></path></svg>
+                    </div>
+                    <div class="nav-item-text">Tổng hợp</div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-item-icon">
+                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" focusable="false">
+                        <path d="M608 32H32C14.33 32 0 46.33 0 64v384c0 17.67 14.33 32 32 32h576c17.67 0 32-14.33 32-32V64c0-17.67-14.33-32-32-32zM176 327.88V344c0 4.42-3.58 8-8 8h-16c-4.42 0-8-3.58-8-8v-16.29c-11.29-.58-22.27-4.52-31.37-11.35-3.9-2.93-4.1-8.77-.57-12.14l11.75-11.21c2.77-2.64 6.89-2.76 10.13-.73 3.87 2.42 8.26 3.72 12.82 3.72h28.11c6.5 0 11.8-5.92 11.8-13.19 0-5.95-3.61-11.19-8.77-12.73l-45-13.5c-18.59-5.58-31.58-23.42-31.58-43.39 0-24.52 19.05-44.44 42.67-45.07V152c0-4.42 3.58-8 8-8h16c4.42 0 8 3.58 8 8v16.29c11.29.58 22.27 4.51 31.37 11.35 3.9 2.93 4.1 8.77.57 12.14l-11.75 11.21c-2.77 2.64-6.89 2.76-10.13.73-3.87-2.43-8.26-3.72-12.82-3.72h-28.11c-6.5 0-11.8 5.92-11.8 13.19 0 5.95 3.61 11.19 8.77 12.73l45 13.5c18.59 5.58 31.58 23.42 31.58 43.39 0 24.53-19.05 44.44-42.67 45.07zM416 312c0 4.42-3.58 8-8 8H296c-4.42 0-8-3.58-8-8v-16c0-4.42 3.58-8 8-8h112c4.42 0 8 3.58 8 8v16zm160 0c0 4.42-3.58 8-8 8h-80c-4.42 0-8-3.58-8-8v-16c0-4.42 3.58-8 8-8h80c4.42 0 8 3.58 8 8v16zm0-96c0 4.42-3.58 8-8 8H296c-4.42 0-8-3.58-8-8v-16c0-4.42 3.58-8 8-8h272c4.42 0 8 3.58 8 8v16z"/>
+                    </svg>
+                    </div>
+                    <div class="nav-item-text">Ngân sách</div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-item-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" fill="currentColor" focusable="false">
+                        <path d="M888 792H200V168c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v688c0 4.4 3.6 8 8 8h752c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm-600-80h56c4.4 0 8-3.6 8-8V560c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v144c0 4.4 3.6 8 8 8zm152 0h56c4.4 0 8-3.6 8-8V384c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v320c0 4.4 3.6 8 8 8zm152 0h56c4.4 0 8-3.6 8-8V462c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v242c0 4.4 3.6 8 8 8zm152 0h56c4.4 0 8-3.6 8-8V304c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v400c0 4.4 3.6 8 8 8z"/>
+                    </svg>
+                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 1792" focusable="false">
+                        <path d="M2048 1536v128H0V128h128v1408h1920zM1920 288v435q0 21-19.5 29.5T1865 745l-121-121-633 633q-10 10-23 10t-23-10l-233-233-416 416-192-192 585-585q10-10 23-10t23 10l233 233 464-464-121-121q-16-16-7.5-35.5T1453 256h435q14 0 23 9t9 23z"/>
+                    </svg>
+                    </div>
+                    <div class="nav-item-text">Báo cáo</div>
+                </div>
+                <div class="nav-item">
+                    <div class="nav-item-icon">
+                        <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 1792" focusable="false">
+                        <path d="M2048 1536v128H0V128h128v1408h1920zM1920 288v435q0 21-19.5 29.5T1865 745l-121-121-633 633q-10 10-23 10t-23-10l-233-233-416 416-192-192 585-585q10-10 23-10t23 10l233 233 464-464-121-121q-16-16-7.5-35.5T1453 256h435q14 0 23 9t9 23z"/>
+                    </svg>
+                    </div>
+                    <div class="nav-item-text">Phân tích tài chính</div>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="title-company">
+                <div class="sidebar-menu"></div>
+                <div class="title-text">CÔNG TY TNHH SẢN XUẤT - THƯƠNG MẠI - DỊCH VỤ QUI PHÚC</div>
+                <div class="title-down"></div>
+            </div>
+            <div class="user-account">
+                <div class="user-notices"></div>
+                <div class="user-avatar"></div>
+                <div class="user-name">Nguyễn Khánh Hòa</div>
+                <div class="user-option"></div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="top-content">
+                <div class="content-title">Nhân viên</div>
+                <div class="add-new-employee">
+                    <button class="m-button">Thêm mới nhân viên</button>
+                </div>
+            </div>
+            <div class="container">
+                <div class="toolbar">
+                    <input placeholder="Nhập tên nhân viên, mã nhân viên" class="i-input"></input>
+                    <div class="reload-btn"></div>
+                </div>
+                <div class="data-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th id="checkbox"></th>
+                                <th id="employeeCode">MÃ NHÂN VIÊN</th>
+                                <th id="fullName">TÊN NHÂN VIÊN</th>
+                                <th id="gender">GIỚI TÍNH</th>
+                                <th id="dateOfBirth">NGÀY SINH</th>
+                                <th id="idCard">SỐ CMND</th>
+                                <th>CHỨC DANH</th>
+                                <th>TÊN ĐƠN VỊ</th>
+                                <th>SỐ TÀI KHOẢN</th>
+                                <th>TÊN NGÂN HÀNG</th>
+                                <th>CHI NHÁNH TK NGÂN HÀNG</th>
+                                <th>CHỨC NĂNG</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+
+                            <tr>
+                                <td></td>
+                                <td>NV0001</td>
+                                <td>Nguyễn Khánh Hòa</td>
+                                <td>Nam</td>
+                                <td>20/03/1999</td>
+                                <td>312312154</td>
+                                <td>Nhân viên</td>
+                                <td>QTKD</td>
+                                <td>123456789</td>
+                                <td>Techcombank</td>
+                                <td>Chi nhánh Hà Nội</td>
+                                <td>Delete</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>NV0001</td>
+                                <td>Nguyễn Khánh Hòa</td>
+                                <td>Nam</td>
+                                <td>20/03/1999</td>
+                                <td>312312154</td>
+                                <td>Nhân viên</td>
+                                <td>QTKD</td>
+                                <td>123456789</td>
+                                <td>Techcombank</td>
+                                <td>Chi nhánh Hà Nội</td>
+                                <td>Delete</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>NV0001</td>
+                                <td>Nguyễn Khánh Hòa</td>
+                                <td>Nam</td>
+                                <td>20/03/1999</td>
+                                <td>312312154</td>
+                                <td>Nhân viên</td>
+                                <td>QTKD</td>
+                                <td>123456789</td>
+                                <td>Techcombank</td>
+                                <td>Chi nhánh Hà Nội</td>
+                                <td>Delete</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>NV0001</td>
+                                <td>Nguyễn Khánh Hòa</td>
+                                <td>Nam</td>
+                                <td>20/03/1999</td>
+                                <td>312312154</td>
+                                <td>Nhân viên</td>
+                                <td>QTKD</td>
+                                <td>123456789</td>
+                                <td>Techcombank</td>
+                                <td>Chi nhánh Hà Nội</td>
+                                <td>Delete</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>NV0001</td>
+                                <td>Nguyễn Khánh Hòa</td>
+                                <td>Nam</td>
+                                <td>20/03/1999</td>
+                                <td>312312154</td>
+                                <td>Nhân viên</td>
+                                <td>QTKD</td>
+                                <td>123456789</td>
+                                <td>Techcombank</td>
+                                <td>Chi nhánh Hà Nội</td>
+                                <td>Delete</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>NV0001</td>
+                                <td>Nguyễn Khánh Hòa</td>
+                                <td>Nam</td>
+                                <td>20/03/1999</td>
+                                <td>312312154</td>
+                                <td>Nhân viên</td>
+                                <td>QTKD</td>
+                                <td>123456789</td>
+                                <td>Techcombank</td>
+                                <td>Chi nhánh Hà Nội</td>
+                                <td>Delete</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>NV0001</td>
+                                <td>Nguyễn Khánh Hòa</td>
+                                <td>Nam</td>
+                                <td>20/03/1999</td>
+                                <td>312312154</td>
+                                <td>Nhân viên</td>
+                                <td>QTKD</td>
+                                <td>123456789</td>
+                                <td>Techcombank</td>
+                                <td>Chi nhánh Hà Nội</td>
+                                <td>Delete</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>NV0001</td>
+                                <td>Nguyễn Khánh Hòa</td>
+                                <td>Nam</td>
+                                <td>20/03/1999</td>
+                                <td>312312154</td>
+                                <td>Nhân viên</td>
+                                <td>QTKD</td>
+                                <td>123456789</td>
+                                <td>Techcombank</td>
+                                <td>Chi nhánh Hà Nội</td>
+                                <td>Delete</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>NV0001</td>
+                                <td>Nguyễn Khánh Hòa</td>
+                                <td>Nam</td>
+                                <td>20/03/1999</td>
+                                <td>312312154</td>
+                                <td>Nhân viên</td>
+                                <td>QTKD</td>
+                                <td>123456789</td>
+                                <td>Techcombank</td>
+                                <td>Chi nhánh Hà Nội</td>
+                                <td>Delete</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>NV0001</td>
+                                <td>Nguyễn Khánh Hòa</td>
+                                <td>Nam</td>
+                                <td>20/03/1999</td>
+                                <td>312312154</td>
+                                <td>Nhân viên</td>
+                                <td>QTKD</td>
+                                <td>123456789</td>
+                                <td>Techcombank</td>
+                                <td>Chi nhánh Hà Nội</td>
+                                <td>Delete</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>NV0001</td>
+                                <td>Nguyễn Khánh Hòa</td>
+                                <td>Nam</td>
+                                <td>20/03/1999</td>
+                                <td>312312154</td>
+                                <td>Nhân viên</td>
+                                <td>QTKD</td>
+                                <td>123456789</td>
+                                <td>Techcombank</td>
+                                <td>Chi nhánh Hà Nội</td>
+                                <td>Delete</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>NV0001</td>
+                                <td>Nguyễn Khánh Hòa</td>
+                                <td>Nam</td>
+                                <td>20/03/1999</td>
+                                <td>312312154</td>
+                                <td>Nhân viên</td>
+                                <td>QTKD</td>
+                                <td>123456789</td>
+                                <td>Techcombank</td>
+                                <td>Chi nhánh Hà Nội</td>
+                                <td>Delete</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>NV0001</td>
+                                <td>Nguyễn Khánh Hòa</td>
+                                <td>Nam</td>
+                                <td>20/03/1999</td>
+                                <td>312312154</td>
+                                <td>Nhân viên</td>
+                                <td>QTKD</td>
+                                <td>123456789</td>
+                                <td>Techcombank</td>
+                                <td>Chi nhánh Hà Nội</td>
+                                <td>Delete</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>NV0001</td>
+                                <td>Nguyễn Khánh Hòa</td>
+                                <td>Nam</td>
+                                <td>20/03/1999</td>
+                                <td>312312154</td>
+                                <td>Nhân viên</td>
+                                <td>QTKD</td>
+                                <td>123456789</td>
+                                <td>Techcombank</td>
+                                <td>Chi nhánh Hà Nội</td>
+                                <td>Delete</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>NV0001</td>
+                                <td>Nguyễn Khánh Hòa</td>
+                                <td>Nam</td>
+                                <td>20/03/1999</td>
+                                <td>312312154</td>
+                                <td>Nhân viên</td>
+                                <td>QTKD</td>
+                                <td>123456789</td>
+                                <td>Techcombank</td>
+                                <td>Chi nhánh Hà Nội</td>
+                                <td>Delete</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>NV0001</td>
+                                <td>Nguyễn Khánh Hòa</td>
+                                <td>Nam</td>
+                                <td>20/03/1999</td>
+                                <td>312312154</td>
+                                <td>Nhân viên</td>
+                                <td>QTKD</td>
+                                <td>123456789</td>
+                                <td>Techcombank</td>
+                                <td>Chi nhánh Hà Nội</td>
+                                <td>Delete</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>NV0001</td>
+                                <td>Nguyễn Khánh Hòa</td>
+                                <td>Nam</td>
+                                <td>20/03/1999</td>
+                                <td>312312154</td>
+                                <td>Nhân viên</td>
+                                <td>QTKD</td>
+                                <td>123456789</td>
+                                <td>Techcombank</td>
+                                <td>Chi nhánh Hà Nội</td>
+                                <td>Delete</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>NV0001</td>
+                                <td>Nguyễn Khánh Hòa</td>
+                                <td>Nam</td>
+                                <td>20/03/1999</td>
+                                <td>312312154</td>
+                                <td>Nhân viên</td>
+                                <td>QTKD</td>
+                                <td>123456789</td>
+                                <td>Techcombank</td>
+                                <td>Chi nhánh Hà Nội</td>
+                                <td>Delete</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>NV0001</td>
+                                <td>Nguyễn Khánh Hòa</td>
+                                <td>Nam</td>
+                                <td>20/03/1999</td>
+                                <td>312312154</td>
+                                <td>Nhân viên</td>
+                                <td>QTKD</td>
+                                <td>123456789</td>
+                                <td>Techcombank</td>
+                                <td>Chi nhánh Hà Nội</td>
+                                <td>Delete</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="paging-bar">
+                <div class="number-of-records">
+                    <p>Tổng số bản ghi 1233 Bản ghi</p>
+                </div>
+                <div class="quanlity-records">
+                    <p>20 Bản ghi/ Trang</p>
+                </div>
+                <div class="paging-button">
+                    <div class="paging-btn prev-btn">Trước</div>
+                    <div class="number-of-page">1 2 3 4 5</div>
+                    <div class="paging-btn next-btn">Sau</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup">
+        <div class="pop-header">
+            <div class="pop-title">Thông tin nhân viên</div>
+            <div class="pop-checkbox">
+                <input type="checkbox" class="c-customer" name="cos"></input>
+                <p>Là khách hàng</p>
+                <input type="checkbox" class="c-supplier" name="cos"></input>
+                <p>Là nhà cung cấp</p>
+            </div>
+            <div class="pop-sup-btn pop-help"></div>
+            <div class="pop-sup-btn pop-close"></div>
+        </div>
+        <div class="pop-content">
+            <div class="infor-row">
+                <div class="employee-infor">
+                    <div class="infor-label">Mã<span style="color: red; font-size: medium; line-height: 13px;"> * </span></div>
+                    <input class="p-input type1" id="employeeCode"></input>
+                </div>
+                <div class="employee-infor">
+                    <div class="infor-label">Tên<span style="color: red; font-size: medium; line-height: 13px;"> * </span></div>
+                    <input class="p-input type2" id="employeeCode"></input>
+                </div>
+                <div class="employee-infor">
+                    <div class="infor-label">Ngày</div>
+                    <input type="date" class="p-input type1" id="employeeCode"></input>
+                </div>
+                <div class="employee-infor">
+                    <div class="infor-label">Giới tính</div>
+                    <div class="groupRadio">
+                        <input type="radio" name="Gender" id="Nam" checked><label for="Nam">Nam</label>
+                        <input type="radio" name="Gender" id="Nu"><label for="Nu">Nữ</label>
+                        <input type="radio" name="Gender" id="Khac"><label for="Khac">Khác</label>
+                    </div>
+                </div>
+            </div>
+            <div class="infor-row">
+                <div class="employee-infor">
+                    <div class="infor-label">Đơn vị<span style="color: red; font-size: medium; line-height: 13px;"> * </span></div>
+                    <input class="p-input type3" id="employeeCode"></input>
+                </div>
+                <div class="employee-infor">
+                    <div class="infor-label">Số CMND</div>
+                    <input class="p-input type2" id="employeeCode"></input>
+                </div>
+                <div class="employee-infor">
+                    <div class="infor-label">Ngày cấp</div>
+                    <input class="p-input type1" type="date" id="employeeCode"></input>
+                </div>
+            </div>
+            <div class="infor-row">
+                <div class="employee-infor">
+                    <div class="infor-label">Chức danh</div>
+                    <input class="p-input type3" id="employeeCode"></input>
+                </div>
+                <div class="employee-infor">
+                    <div class="infor-label">Nơi cấp</div>
+                    <input class="p-input type3" id="employeeCode"></input>
+                </div>
+            </div>
+
+            <div class="infor-row">
+                <div class="employee-infor area2">
+                    <div class="infor-label">Địa chỉ</div>
+                    <input class="p-input type4" id="employeeCode"></input>
+                </div>
+            </div>
+            <div class="infor-row">
+                <div class="employee-infor area2">
+                    <div class="infor-label">ĐT di động</div>
+                    <input class="p-input type2" id="employeeCode"></input>
+                </div>
+                <div class="employee-infor area2">
+                    <div class="infor-label">ĐT cố định</div>
+                    <input class="p-input type2" id="employeeCode"></input>
+                </div>
+                <div class="employee-infor area2">
+                    <div class="infor-label">Email</div>
+                    <input class="p-input type2" id="employeeCode"></input>
+                </div>
+            </div>
+            <div class="infor-row">
+                <div class="employee-infor area2">
+                    <div class="infor-label">Tài khoản ngân hàng</div>
+                    <input class="p-input type2" id="employeeCode"></input>
+                </div>
+                <div class="employee-infor area2">
+                    <div class="infor-label">Tên ngân hàng</div>
+                    <input class="p-input type2" id="employeeCode"></input>
+                </div>
+                <div class="employee-infor area2">
+                    <div class="infor-label">Chi nhánh</div>
+                    <input class="p-input type2" id="employeeCode"></input>
+                </div>
+            </div>
+            <div class="hr-line">
+                <hr>
+            </div>
+        </div>
+        <div class="pop-footer">
+            <div class="cancel-btn">
+                <button class="m-button m-button-type2">Hủy</button>
+            </div>
+            <div class="save-btn">
+                <button class="m-button m-button-type2">Cất</button>
+            </div>
+            <div class="save-and-add-btn">
+                <button class="m-button">Cất và Thêm</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
