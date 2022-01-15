@@ -38,15 +38,14 @@ table th {
     z-index: 20;
     background: #E7EBFD;
     text-align: center;
+    height: 40px;
 }
 
-.data-table table th,
-td {
+.data-table table td {
     border-bottom: 1px solid #e9e7e7;
     height: 40px;
-    min-width: 150px;
-    white-space: nowrap;
-    text-align: center;
+    text-align: left;
+    padding-left: 10px;
 }
 
 
@@ -56,4 +55,35 @@ td {
     background-color: #e5e2e2;
     transition: 200ms ease;
     cursor: pointer;
+}
+
+
+/* .data-table table tr td:first-child {
+    min-width: 30px;
+    width: 30px;
+    background-color: aqua;
+} */
+
+
+/* Column Table */
+
+.STT {
+    min-width: 40px;
+}
+
+.DateOfBirth {
+    min-width: 150px;
+    text-align: center;
+}
+
+.EmployeeCode,
+.FullName,
+.GenderName,
+.IdentityNumber,
+.PositionName,
+.DepartmentName,
+.PhoneNumber,
+.empty {
+    min-width: 150px;
+    white-space: nowrap;
 }
